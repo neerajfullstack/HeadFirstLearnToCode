@@ -15,6 +15,15 @@ computer_choice = random.choice(choices)
 
 user_choice = input('rock, paper or scissors?')
 
+# check if user made the valid choice
+
+while (user_choice != 'rock' and
+    user_choice != 'paper' and
+    user_choice != 'scissors'):
+    user_choice = input('rock, paper or scissors?')
+
+        
+
 # Here's our game logic which checks to see if the computer wins or not
 # and makes the appropriate change to the winner var
 
