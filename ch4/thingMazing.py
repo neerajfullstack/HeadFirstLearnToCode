@@ -9,7 +9,7 @@ while (i < length):
 
 length = length * -1
 
-i = -2
+i = - 2
 
 while(i >= length):
 	output = output + chars[i]
