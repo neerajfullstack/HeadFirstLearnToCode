@@ -31,3 +31,5 @@ range(5,10)
 Key bits:
 
 When you use while loop, you need to initialize your counter increment in separate statements. If, after lots of code changes, you accidently moved or deleted one of these statements, well then things could get ugly. But with a for loop, everything is packaged right in the for statement for all to see and with no chance of things getting changed or lost.
+
+
