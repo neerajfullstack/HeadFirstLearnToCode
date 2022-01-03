@@ -22,3 +22,15 @@ Scope is the extent to which your variables are visible. It is an area of the pr
 
 Having to much global variables is not considerd a good thing. 
 
+- Global Variable: Visible anywhere in your program, there is an exception though
+- Local variable : visible inside function or code block body where it is declared
+
+- Parameter : only visible inside function body where it is declared
+
+
+
+# Passing variables to functions 
+
+When you are passing a var to a function, you are actually passing the value of that variable. Not the var itself. 
+
+
