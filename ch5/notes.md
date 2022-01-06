@@ -34,3 +34,16 @@ Having to much global variables is not considerd a good thing.
 When you are passing a var to a function, you are actually passing the value of that variable. Not the var itself. 
 
 
+# Going further with parameters:
+Default values and keywords
+
+Earlier we said you need to be careful about your argument order: if you don't pass the correct arguments in the correct order, the all bets are off in terms of how a function is going to operate. If you've got a function that has speed and altitude parameters and you switch the order when you pass your arguments, watch out!
+
+This applies to most programming langauges.
+
+To alleviate his potential ordering problem, Python provides a flexible way.
+
+With python you can set default values and keywords, whic allows you to pick and choose arguments in order you want them. You will find parameter keywords and default values used in many python modules. 
+
+
+
