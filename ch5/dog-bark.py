@@ -1,16 +1,18 @@
 print("Get the dogs ready")
 
+
 def bark(name, weight):
     if weight > 20:
         print(name, 'Say WOOF WOOF')
     else:
         print(name, 'say woof woof')
 
-def sayHello(name):
+
+def say_hello(name):
     print('Hello', name)
 
 
-sayHello('Neeraj')
+say_hello('Neeraj')
 
 bark('Codie', 40)
 

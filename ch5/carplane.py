@@ -6,6 +6,7 @@ def how_should_i_get_there(miles):
     else:
         print('Walk')
 
+
 how_should_i_get_there(800.3)
 how_should_i_get_there(2.0)
 how_should_i_get_there(.5)
