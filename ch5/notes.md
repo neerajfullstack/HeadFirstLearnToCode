@@ -45,5 +45,11 @@ To alleviate his potential ordering problem, Python provides a flexible way.
 
 With python you can set default values and keywords, whic allows you to pick and choose arguments in order you want them. You will find parameter keywords and default values used in many python modules. 
 
+# How default parameter values work
 
+Your function parameter can have default values. Let's use a simpler version of our greet function, without a global variable. 
+
+```PYTHON
+def greet(name, message='you rule!'):
+    print('Hi', name+ '.', message)
 
